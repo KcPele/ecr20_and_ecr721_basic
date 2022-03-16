@@ -46,8 +46,9 @@ contract SimpleToken is IERC20 {
 
     function buyToken(address receiver, uint256 amountOfTokens) public override returns(bool){
         require(amountOfTokens <= totalSupply_);
-        balances[receiver] = balances[receiver].add(amountOfTokens);
-        totalSupply_ = totalSupply_ + amountOfTokens;
+        uint256 addAmount = amountOfTokens * 10 ** 18;
+        balances[receiver] = balances[receiver].add(addAmount);
+        totalSupply_ = totalSupply_ + addAmount;
         return true;
     }
 
