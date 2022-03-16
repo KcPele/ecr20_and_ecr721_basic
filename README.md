@@ -6,7 +6,7 @@ ipfs.io/ipfs/QmavKD7Gqrk9BnfQy8xjb9zixPrtFmfpCniButYb9buJBm?filename=snappy2.jpg
 
 ECR 20
 ===============================
-https://ropsten.etherscan.io/tx/0xba3d448c71f34b56d4a8ec3b334e3e1a73fbc580558ee2b6e60fc87ba92f3e49
+https://ropsten.etherscan.io/tx/0xcc26fe5fa9b66dcaa600216e602aff347cd1c22107a408928877179cd5877099
 
 ECR721
 ======================
